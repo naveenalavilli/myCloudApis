@@ -1,0 +1,27 @@
+# Build artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+
+# User-specific / IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# Playwright local browsers
+**/ms-playwright/
+
+# Logs / test output
+TestResult*/
+TestResults/
+*.trx
+*.log
+*.coverage
+
+# OS noise
+.DS_Store
+Thumbs.db
