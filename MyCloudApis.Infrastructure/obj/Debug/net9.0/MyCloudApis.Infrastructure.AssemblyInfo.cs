@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyCloudApis.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ceb5bdce06d1c275ce042f83c4761a92330d142")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5229b7eb2ecb20944d11f87228c155daa9a6616")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyCloudApis.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyCloudApis.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
