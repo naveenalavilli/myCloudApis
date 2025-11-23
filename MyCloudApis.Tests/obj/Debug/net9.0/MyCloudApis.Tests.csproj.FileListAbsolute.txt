@@ -499,3 +499,4 @@ C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Tests\bin\Debug\net9.0\
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Tests\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Tests\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Tests\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Tests\obj\Debug\net9.0\MyCloudApis.Tests.sourcelink.json

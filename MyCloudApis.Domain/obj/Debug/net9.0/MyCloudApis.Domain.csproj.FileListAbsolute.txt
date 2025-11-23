@@ -9,3 +9,4 @@ C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\refint\MyCloudApis.Domain.dll
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.pdb
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\ref\MyCloudApis.Domain.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.sourcelink.json

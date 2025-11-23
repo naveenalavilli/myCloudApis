@@ -355,3 +355,4 @@ C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Infrastructure\bin\Debu
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Infrastructure\bin\Debug\net9.0\.playwright\package\types\structs.d.ts
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Infrastructure\bin\Debug\net9.0\.playwright\package\types\types.d.ts
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Infrastructure\bin\Debug\net9.0\playwright.ps1
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Infrastructure\obj\Debug\net9.0\MyCloudApis.Infrastructure.sourcelink.json

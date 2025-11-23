@@ -13,3 +13,4 @@ C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\n
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\refint\MyCloudApis.Application.dll
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.pdb
 C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\ref\MyCloudApis.Application.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.sourcelink.json

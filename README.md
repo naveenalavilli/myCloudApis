@@ -18,6 +18,9 @@ dotnet run --project MyCloudApis.Api
 ```
 2) Open Swagger at the URL above and exercise endpoints, or use the examples in `MyCloudApis.Api/MyCloudApis.Api.http`.
 
+## CI
+- GitHub Actions workflow `.github/workflows/dotnet.yml` restores, builds, and tests the solution on pushes/PRs to `main`/`master`.
+
 ## Endpoints
 - `POST /pdf/from-html`  
   Body: `{ "htmlContent": "<h1>Hello</h1>", "fileName": "doc.pdf" }` (or `htmlFilePath` instead of `htmlContent`). Returns PDF bytes.

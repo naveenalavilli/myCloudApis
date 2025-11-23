@@ -32,6 +32,7 @@ Current tests cover:
 - PDF generation returns bytes.
 - Excel export writes rows.
 - Email service validation (missing recipients/SMTP).
+- CSV export/import round-trip.
 
 ## Implementation notes
 - PDF: `MyCloudApis.Infrastructure/Pdf/PdfService` uses HtmlRendererCore.PdfSharp; good for typical HTML. For complex web layouts, consider swapping to a headless browser renderer (Playwright/Puppeteer) behind the same interface.
@@ -40,6 +41,10 @@ Current tests cover:
 - Templates: `MyCloudApis.Infrastructure/Templates/TemplateService` renders Razor templates from strings; feed JSON models from clients.
 - Web capture: `MyCloudApis.Infrastructure/Web/UrlRenderService` uses Playwright headless Chromium to render URLs to PDF/PNG.
 - CSV: `MyCloudApis.Infrastructure/Csv/CsvService` supports simple export/import with custom delimiter (import expects `multipart/form-data`).
+
+## CI
+- GitHub Actions workflow at `.github/workflows/dotnet.yml` runs restore, build (Release), and tests on push/PR to `main`/`master`.
+- Extend with matrix (OS/config), code coverage upload, or Playwright browser install if headless capture is exercised in tests.
 
 ## Extension points
 - Add new features by defining contracts in Application and implementing in Infrastructure; register in `DependencyInjection`.
