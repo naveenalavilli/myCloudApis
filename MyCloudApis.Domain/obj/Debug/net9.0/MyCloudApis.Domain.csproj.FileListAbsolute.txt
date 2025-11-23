@@ -1,0 +1,11 @@
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\bin\Debug\net9.0\MyCloudApis.Domain.deps.json
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\bin\Debug\net9.0\MyCloudApis.Domain.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\bin\Debug\net9.0\MyCloudApis.Domain.pdb
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.AssemblyInfoInputs.cache
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.AssemblyInfo.cs
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.csproj.CoreCompileInputs.cache
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\refint\MyCloudApis.Domain.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\MyCloudApis.Domain.pdb
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Domain\obj\Debug\net9.0\ref\MyCloudApis.Domain.dll

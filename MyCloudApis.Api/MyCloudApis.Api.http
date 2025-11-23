@@ -1,0 +1,110 @@
+@MyCloudApis.Api_HostAddress = https://localhost:7274
+
+POST {{MyCloudApis.Api_HostAddress}}/pdf/from-html
+Content-Type: application/json
+
+{
+  "htmlContent": "<h1>Hello PDF</h1><p>This was generated from inline HTML.</p>",
+  "fileName": "sample.pdf"
+}
+
+###
+
+POST {{MyCloudApis.Api_HostAddress}}/email/send
+Content-Type: application/json
+
+{
+  "from": {
+    "name": "API Demo",
+    "address": "fake-account@gmail.com"
+  },
+  "to": [
+    { "address": "recipient@example.com" }
+  ],
+  "subject": "Hello from MyCloudApis",
+  "textBody": "This is a text body fallback.",
+  "htmlBody": "<p>This is the <strong>HTML body</strong> of the message.</p>",
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "username": "fake-account@gmail.com",
+    "password": "app-password-here",
+    "useSsl": false,
+    "useStartTls": true,
+    "fromAddress": "fake-account@gmail.com",
+    "fromName": "MyCloudApis Demo"
+  }
+}
+
+###
+
+POST {{MyCloudApis.Api_HostAddress}}/excel/export
+Content-Type: application/json
+
+{
+  "fileName": "report.xlsx",
+  "rows": [
+    { "Id": 1, "Name": "Ada Lovelace", "Score": 98.5 },
+    { "Id": 2, "Name": "Alan Turing", "Score": 95.25 }
+  ]
+}
+
+###
+
+POST {{MyCloudApis.Api_HostAddress}}/template/render-html
+Content-Type: application/json
+
+{
+  "template": "<h1>Hello @Model.Name</h1><p>Total: @Model.Total</p>",
+  "model": { "Name": "Ada", "Total": 123.45 }
+}
+
+###
+
+POST {{MyCloudApis.Api_HostAddress}}/template/pdf
+Content-Type: application/json
+
+{
+  "template": "<h1>Invoice</h1><p>@Model.Customer</p><p>Total: @Model.Total</p>",
+  "model": { "Customer": "Acme Corp", "Total": "$150.00" },
+  "fileName": "invoice.pdf"
+}
+
+###
+
+POST {{MyCloudApis.Api_HostAddress}}/web/render
+Content-Type: application/json
+
+{
+  "url": "https://example.com",
+  "asImage": false,
+  "fileName": "page.pdf"
+}
+
+###
+
+POST {{MyCloudApis.Api_HostAddress}}/csv/export
+Content-Type: application/json
+
+{
+  "fileName": "data.csv",
+  "rows": [
+    { "Id": 1, "Name": "Alice" },
+    { "Id": 2, "Name": "Bob" }
+  ],
+  "delimiter": ","
+}
+
+###
+
+POST {{MyCloudApis.Api_HostAddress}}/csv/import?delimiter=,
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="data.csv"
+Content-Type: text/csv
+
+Id,Name
+1,Alice
+2,Bob
+--WebAppBoundary--

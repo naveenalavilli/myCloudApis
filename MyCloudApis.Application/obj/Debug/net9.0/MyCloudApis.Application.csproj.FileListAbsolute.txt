@@ -1,0 +1,15 @@
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\bin\Debug\net9.0\MyCloudApis.Application.deps.json
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\bin\Debug\net9.0\MyCloudApis.Application.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\bin\Debug\net9.0\MyCloudApis.Application.pdb
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\bin\Debug\net9.0\MyCloudApis.Domain.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\bin\Debug\net9.0\MyCloudApis.Domain.pdb
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.csproj.AssemblyReference.cache
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.AssemblyInfoInputs.cache
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.AssemblyInfo.cs
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.csproj.CoreCompileInputs.cache
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudA.F6C45BB3.Up2Date
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\refint\MyCloudApis.Application.dll
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\MyCloudApis.Application.pdb
+C:\Users\nalavilli135\myOwnRepos\myCloudApis\MyCloudApis.Application\obj\Debug\net9.0\ref\MyCloudApis.Application.dll
