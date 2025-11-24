@@ -1,7 +1,9 @@
 using HtmlRendererCore.PdfSharp;
 using MyCloudApis.Application.Interfaces;
 using PdfSharpCore;
+using PdfSharpCore.Fonts;
 using PdfSharpCore.Pdf;
+using PdfSharpCore.Utils;
 
 namespace MyCloudApis.Infrastructure.Pdf;
 
@@ -10,6 +12,15 @@ namespace MyCloudApis.Infrastructure.Pdf;
 /// </summary>
 public class PdfService : IPdfService
 {
+    public PdfService()
+    {
+        // Ensure fonts resolve cross-platform without relying on system-installed fonts.
+        if (GlobalFontSettings.FontResolver == null)
+        {
+            GlobalFontSettings.FontResolver = new FontResolver();
+        }
+    }
+
     public Task<byte[]> FromHtmlAsync(string html, CancellationToken cancellationToken = default)
     {
         if (string.IsNullOrWhiteSpace(html))
