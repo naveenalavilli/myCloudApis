@@ -18,8 +18,17 @@ dotnet run --project MyCloudApis.Api
 ```
 2) Open Swagger at the URL above and exercise endpoints, or use the examples in `MyCloudApis.Api/MyCloudApis.Api.http`.
 
+## Prerequisites
+- .NET 9 SDK.
+- PDF rendering on Linux requires `libgdiplus` and common fonts (e.g., `fonts-dejavu-core`); installed automatically in CI.
+- URL rendering (`/web/render`) uses Playwright; ensure the browser is installed once via:
+  ```bash
+  npx playwright install chromium
+  ```
+
 ## CI
 - GitHub Actions workflow `.github/workflows/dotnet.yml` restores, builds, and tests the solution on pushes/PRs to `main`/`master`.
+- Linux CI installs `libgdiplus` and `fonts-dejavu-core` to satisfy PDF rendering dependencies.
 
 ## Endpoints
 - `POST /pdf/from-html`  

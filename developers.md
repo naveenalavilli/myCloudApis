@@ -19,6 +19,11 @@ dotnet run --project MyCloudApis.Api
 ```
 Swagger: `https://localhost:7274/swagger`.
 
+Playwright browser (needed for `/web/render` at runtime):
+```bash
+npx playwright install chromium
+```
+
 ## Configuration
 - Default SMTP settings: `MyCloudApis.Api/appsettings.json` under `Email:DefaultSmtp`. Update host/port/credentials/TLS/from address.
 - Per-request SMTP overrides are supported on `/email/send` by including a `smtp` object in the payload.
@@ -45,6 +50,7 @@ Current tests cover:
 ## CI
 - GitHub Actions workflow at `.github/workflows/dotnet.yml` runs restore, build (Release), and tests on push/PR to `main`/`master`.
 - Extend with matrix (OS/config), code coverage upload, or Playwright browser install if headless capture is exercised in tests.
+- Linux runners install `libgdiplus` and `fonts-dejavu-core` for HtmlRenderer/PDF tests.
 
 ## Extension points
 - Add new features by defining contracts in Application and implementing in Infrastructure; register in `DependencyInjection`.
